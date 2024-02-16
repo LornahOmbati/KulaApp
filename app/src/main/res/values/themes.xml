@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.KulaApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/brown</item>
+    </style>
+
+    <style name="Theme.KulaApp" parent="Base.Theme.KulaApp" />
+</resources>
