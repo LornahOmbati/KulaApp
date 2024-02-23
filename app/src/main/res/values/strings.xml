@@ -6,14 +6,15 @@
     <string name="Recipe3">Vegetarian Quinoa-Stuffed Bell Peppers</string>
     <string name="Recipe4">Honey Garlic Glazed Salmon</string>
     <string name="Recipe5">Creamy Mushroom Risotto</string>
-    <string name="Recipe6">BBQ Pulled Jack fruit Sandwiches (Vegan)</string>
+    <string name="Recipe6"> Mediterranean Chickpea Salad </string>
     <string name="Recipe7"> Lemon Herb Roasted Chicken Thighs</string>
     <string name="Recipe8">Shrimp and Vegetable Stir-Fry</string>
     <string name="Recipe9"> Chocolate Lava Cake with Raspberry Coulis</string>
-    <string name="Recipe10">Mediterranean Chickpea Salad</string>
+    <string name="Recipe10">BBQ Pulled Jack fruit Sandwiches (Vegan)</string>
     <string name="recipes">All Recipes</string>
     <string name="recipe_title">Recipe Title</string>
     <string name="category_name">Category name</string>
     <string name="recipe_title2">Recipe Title</string>
     <string name="image_for_dish">Image for dish</string>
+    <string name="Recipes">Recipes</string>
 </resources>

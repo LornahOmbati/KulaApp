@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="recipe1">
+        <item>1 pound (about 450g) boneless, skinless chicken thighs or breasts, cut into bite-sized pieces</item>
+        <item>1/2 cup plain yogurt</item>
+        <item>2 tablespoons lemon juice</item>
+        <item>2 cloves garlic, minced</item>
+        <item>1 tablespoon ginger, grated</item>
+        <item>1 teaspoon ground cumin</item>
+        <item>1 teaspoon ground coriander</item>
+        <item>1/2 teaspoon turmeric</item>
+        <item>1/2 teaspoon paprika</item>
+        <item>1/4 teaspoon cayenne pepper (adjust to taste for desired spiciness)</item>
+        <item>Salt, to taste</item>
+        <item>2 tablespoons vegetable oil or ghee</item>
+        <item>1 onion, finely chopped</item>
+        <item>2 cloves garlic, minced</item>
+        <item>1 tablespoon ginger, grated</item>
+        <item>1-2 green chilies, finely chopped (adjust to taste)</item>
+        <item>1 teaspoon ground cumin</item>
+        <item>1 teaspoon ground coriander</item>
+        <item>1 teaspoon paprika</item>
+        <item>1/2 teaspoon turmeric</item>
+        <item>1/2 teaspoon garam masala</item>
+        <item>1/4 teaspoon cayenne pepper (adjust to taste)</item>
+        <item>1 can (14 ounces) crushed tomatoes</item>
+        <item>1 cup heavy cream or coconut milk</item>
+        <item>Salt, to taste</item>
+        <item>Fresh cilantro leaves, for garnish</item>
+        <item>Sliced green onions or chopped cilantro for garnish</item>
+        <item>Cooked rice or naan bread, for serving</item>
+    </string-array>
+
+    <string-array name="recipe2">
+        <item>classA</item>
+        <item>ClassB</item>
+        <item>ClassC</item>
+    </string-array>
+
+    <string-array name="recipe3">
+        <item>classA</item>
+        <item>ClassB</item>
+        <item>ClassC</item>
+    </string-array>
+
+    <string-array name="recipe4">
+        <item>classA</item>
+        <item>ClassB</item>
+        <item>ClassC</item>
+    </string-array>
+
+    <string-array name="recipe5">
+        <item>classA</item>
+        <item>ClassB</item>
+        <item>ClassC</item>
+    </string-array>
+
+    <string-array name="recipe6">
+        <item>classA</item>
+        <item>ClassB</item>
+        <item>ClassC</item>
+    </string-array>
+
+    <string-array name="recipe7">
+        <item>classA</item>
+        <item>ClassB</item>
+        <item>ClassC</item>
+    </string-array>
+
+    <string-array name="recipe8">
+        <item>classA</item>
+        <item>ClassB</item>
+        <item>ClassC</item>
+    </string-array>
+
+</resources>
