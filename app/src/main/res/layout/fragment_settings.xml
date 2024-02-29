@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.SettingsFragment"
+    android:orientation="vertical"
+    android:background="@color/gray">
+
+    <TextView
+        android:id="@+id/settings_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textSize="40sp"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/yellow"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/settings_layout"
+        android:layout_below="@+id/settings_title"
+        android:orientation="vertical"
+        android:layout_marginStart="15dp"
+        android:background="@color/white"
+        android:paddingStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        >
+
+        <!-- Settings Title -->
+        <TextView
+            android:id="@+id/gen_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/bubblegum_sans"
+            android:gravity="center"
+            android:text="General"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+        <!-- Settings Options -->
+        <CheckBox
+            android:id="@+id/option_one_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option One"
+            android:padding="16dp"
+            android:layout_below = "@+id/gen_txt"
+            tools:ignore="ObsoleteLayoutParam"
+            android:textColor="@color/black"/>
+
+        <CheckBox
+            android:id="@+id/option_two_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option Two"
+            android:padding="16dp"
+            android:layout_below = "@+id/option_one_checkbox"
+            tools:ignore="ObsoleteLayoutParam"
+            android:textColor="@color/black"/>
+
+        <Switch
+            android:id="@+id/switch_option"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/switch_option"
+            android:padding="16dp"
+            android:layout_below = "@+id/option_two_checkbox"
+            tools:ignore="ObsoleteLayoutParam,UseSwitchCompatOrMaterialXml"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/legal_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_layout"
+        android:orientation="vertical"
+        android:layout_marginStart="15dp"
+        android:background="@color/white"
+        android:paddingStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:id="@+id/legal_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/bubblegum_sans"
+            android:gravity="center"
+            android:text="Legal"
+            android:textSize="25sp"
+            android:layout_below = "@+id/switch_option"
+            android:textColor="@color/black"
+            />
+
+        <CheckBox
+            android:id="@+id/option_one_checkbox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option One"
+            android:padding="16dp"
+            android:layout_below = "@+id/legal_txt"
+            tools:ignore="ObsoleteLayoutParam"
+            android:textColor="@color/black"/>
+
+        <CheckBox
+            android:id="@+id/option_two_checkbox2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Option Two"
+            android:padding="16dp"
+            android:layout_below = "@+id/option_one_checkbox1"
+            tools:ignore="ObsoleteLayoutParam"
+            android:textColor="@color/black"/>
+
+        <Switch
+            android:id="@+id/switch_option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/switch_option"
+            android:padding="16dp"
+            android:layout_below = "@+id/option_two_checkbox2"
+            tools:ignore="ObsoleteLayoutParam,UseSwitchCompatOrMaterialXml"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Account_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/legal_layout"
+        android:orientation="vertical"
+        android:layout_marginStart="15dp"
+        android:background="@color/white"
+        android:paddingStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:paddingBottom="9dp"
+        >
+
+        <TextView
+            android:id="@+id/account_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/bubblegum_sans"
+            android:gravity="center"
+            android:text="Account"
+            android:textSize="25sp"
+            android:layout_below = "@+id/switch_option"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/sign_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account_txt"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/almendra"
+            android:gravity="center"
+            android:text="Sign Out"
+            android:textSize="17sp"
+            android:textColor="@color/blue"/>
+
+        <TextView
+            android:id="@+id/Delete_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/account_txt"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/bubblegum_sans"
+            android:gravity="center"
+            android:text="Delete Account"
+            android:textColor="@color/red"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

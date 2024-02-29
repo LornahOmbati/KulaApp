@@ -17,4 +17,7 @@
     <string name="recipe_title2">Recipe Title</string>
     <string name="image_for_dish">Image for dish</string>
     <string name="Recipes">Recipes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="switch_option">Switch Option</string>
 </resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:title="home"
+        android:icon="@drawable/home_icon"/>
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:title="profile"
+        android:icon="@drawable/pfp_icon"/>
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:title="settings"
+        android:icon="@drawable/baseline_settings_24"/>
+</menu>

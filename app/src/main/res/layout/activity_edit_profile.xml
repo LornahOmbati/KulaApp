@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.EditProfileActivity"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/title_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/yellow"
+        android:fontFamily="@font/cherry_cream_soda"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Edit Profile"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:minHeight="48dp"
+        tools:ignore="TextContrastCheck" />
+
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@id/title_txt"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="70dp"
+        android:textColor="@color/black"
+        android:minHeight="48dp"
+        android:fontFamily="@font/bubblegum_sans"
+        android:foregroundGravity="bottom"/>
+
+</RelativeLayout>

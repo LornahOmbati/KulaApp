@@ -72,6 +72,7 @@
             android:layout_marginTop="7dp"
             android:layout_marginBottom="5dp"
             android:gravity="right"
+            android:entries="@array/recipe4"
             android:minHeight="48dp" />
 
     </LinearLayout>

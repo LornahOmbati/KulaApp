@@ -1,4 +1,4 @@
-package com.example.kulaapp;
+package com.example.kulaapp.Activities;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -8,6 +8,8 @@ import android.os.Bundle;
 import android.os.Handler;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.kulaapp.R;
 
 @SuppressLint("CustomSplashScreen")
 public class SplashActivity extends AppCompatActivity {
@@ -28,7 +30,7 @@ public class SplashActivity extends AppCompatActivity {
 
         // splash screen code to navigate automatically to main activity after a delay/timeout of 3seconds
         new Handler().postDelayed(() -> {
-            Intent mainIntent = new Intent(SplashActivity.this, ExploreActivity
+            Intent mainIntent = new Intent(SplashActivity.this, MainActivity
                     .class);
             startActivity(mainIntent);
 

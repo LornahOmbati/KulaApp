@@ -32,45 +32,133 @@
     </string-array>
 
     <string-array name="recipe2">
-        <item>classA</item>
-        <item>ClassB</item>
-        <item>ClassC</item>
+        <item>1 pound (450g) lean ground beef</item>
+        <item>1 onion, finely chopped</item>
+        <item>2 cloves garlic, minced</item>
+        <item>1 can (14.5 ounces) crushed tomatoes</item>
+        <item>1 can (6 ounces) tomato paste</item>
+        <item>1 cup beef broth or red wine (optional)</item>
+        <item>1 teaspoon dried oregano</item>
+        <item>1 teaspoon dried basil</item>
+        <item>Salt and pepper, to taste</item>
+        <item>Olive oil for cooking</item>
+        <item>15 ounces (425g) ricotta cheese</item>
+        <item>1 cup grated Parmesan cheese</item>
+        <item>1 large egg</item>
+        <item>2 tablespoons chopped fresh parsley </item>
+        <item> Salt and pepper, to taste</item>
+        <item>12 lasagna noodles (oven-ready or precooked noodles work too)</item>
+        <item>2 cups shredded mozzarella cheese</item>
+        <item>Extra grated Parmesan cheese for topping</item>
+        <item>Fresh basil leaves for garnish (optional)</item>
+        <item>Sautéed mushrooms, spinach, or bell peppers for layering</item>
+        <item>Red pepper flakes or Italian seasoning for extra flavor</item>
     </string-array>
 
     <string-array name="recipe3">
-        <item>classA</item>
-        <item>ClassB</item>
-        <item>ClassC</item>
+        <item>4 large bell peppers (any color), halved lengthwise and seeds removed</item>
+        <item>1 cup quinoa, rinsed and drained</item>
+        <item>2 cups vegetable broth or water</item>
+        <item>1 tablespoon olive oil</item>
+        <item>1 onion, diced</item>
+        <item>2 cloves garlic, minced</item>
+        <item>1 medium carrot, diced</item>
+        <item>1 medium zucchini, diced</item>
+        <item>1 cup diced tomatoes (fresh or canned)</item>
+        <item>1 cup corn kernels (fresh, canned, or frozen)</item>
+        <item>1 teaspoon ground cumin</item>
+        <item>1 teaspoon paprika</item>
+        <item>1/2 teaspoon chili powder (adjust to taste)</item>
+        <item>Salt and pepper, to taste</item>
+        <item>1 cup shredded cheese (such as cheddar, mozzarella, or a vegan cheese alternative)</item>
+        <item>Chopped fresh cilantro or parsley, for garnish (optional)</item>
+        <item>1 can (15 ounces) black beans, drained and rinsed</item>
+        <item>1/2 cup diced mushrooms</item>
+        <item>1/4 cup chopped green onions</item>
+        <item>1/2 cup diced bell peppers (from tops of the bell peppers)</item>
     </string-array>
 
     <string-array name="recipe4">
-        <item>classA</item>
-        <item>ClassB</item>
-        <item>ClassC</item>
+        <item>4 salmon fillets, skin-on or skinless, about 6 ounces (170g) each</item>
+        <item>1/4 cup honey</item>
+        <item>3 tablespoons soy sauce (or tamari for gluten-free option)</item>
+        <item>2 tablespoons olive oil (or sesame oil for added flavor)</item>
+        <item>2 cloves garlic, minced</item>
+        <item>1 tablespoon lemon juice</item>
+        <item>1 teaspoon grated ginger (optional)</item>
+        <item>Salt and black pepper, to taste</item>
+        <item>Sesame seeds, for garnish (optional)</item>
+        <item>Chopped green onions or parsley, for garnish (optional)</item>
+
     </string-array>
 
     <string-array name="recipe5">
-        <item>classA</item>
-        <item>ClassB</item>
-        <item>ClassC</item>
+        <item>1 1/2 cups Arborio rice (risotto rice)</item>
+        <item>4 cups vegetable or chicken broth (warmed)</item>
+        <item>1/2 cup dry white wine (optional)</item>
+        <item>2 tablespoons olive oil or butter</item>
+        <item>1 onion, finely chopped</item>
+        <item>2 cloves garlic, minced</item>
+        <item>8 ounces (about 225g) mushrooms (such as cremini or button), sliced</item>
+        <item>1/2 cup grated Parmesan cheese</item>
+        <item>1/4 cup heavy cream (or half-and-half)</item>
+        <item>Salt and black pepper, to taste</item>
+        <item>Fresh parsley or thyme, chopped (for garnish)</item>
+        <item>Additional grated Parmesan cheese (for serving)</item>
     </string-array>
 
     <string-array name="recipe6">
-        <item>classA</item>
-        <item>ClassB</item>
-        <item>ClassC</item>
+
+        <item>2 cans (15 ounces each) chickpeas (garbanzo beans), drained and rinsed</item>
+        <item>1 English cucumber, diced</item>
+        <item>1 pint cherry tomatoes, halved</item>
+        <item>1/2 red onion, thinly sliced</item>
+        <item>1/2 cup Kalamata olives, pitted and halved</item>
+        <item>1/2 cup crumbled feta cheese</item>
+        <item>1/4 cup chopped fresh parsley</item>
+        <item>1/4 cup chopped fresh mint leaves</item>
+        <item>1/4 cup extra virgin olive oil</item>
+        <item>2 tablespoons lemon juice (about 1 lemon)</item>
+        <item>2 cloves garlic, minced</item>
+        <item>1 teaspoon dried oregano</item>
+        <item>Salt and black pepper, to taste</item>
+        <item>1 bell pepper, diced</item>
+        <item>1/4 cup chopped red cabbage</item>
+        <item>1/4 cup chopped artichoke hearts</item>
+        <item>1/4 cup diced cucumber</item>
+        <item>1/4 cup chopped sun-dried tomatoes</item>
+        <item>1/4 cup chopped roasted red peppers</item>
+
     </string-array>
 
     <string-array name="recipe7">
-        <item>classA</item>
-        <item>ClassB</item>
-        <item>ClassC</item>
+        <item>6 bone-in, skin-on chicken thighs</item>
+        <item>2 lemons, sliced</item>
+        <item>4 cloves garlic, minced</item>
+        <item>2 tablespoons olive oil</item>
+        <item>2 tablespoons fresh lemon juice</item>
+        <item>2 teaspoons fresh thyme leaves (or 1 teaspoon dried thyme)</item>
+        <item>2 teaspoons fresh rosemary leaves (or 1 teaspoon dried rosemary)</item>
+        <item>1 teaspoon dried oregano</item>
+        <item>1 teaspoon paprika</item>
+        <item>Salt and black pepper, to taste</item>
+        <item>Fresh parsley, chopped, for garnish (optional)</item>
     </string-array>
 
     <string-array name="recipe8">
-        <item>classA</item>
-        <item>ClassB</item>
-        <item>ClassC</item>
+        <item>1 pound (about 450g) large shrimp, peeled and deveined</item>
+        <item>2 cups mixed vegetables, such as bell peppers, broccoli, snap peas, carrots, and mushrooms, chopped or sliced</item>
+        <item>3 cloves garlic, minced</item>
+        <item>1 tablespoon fresh ginger, minced or grated</item>
+        <item>2 tablespoons soy sauce (or tamari for gluten-free option)</item>
+        <item>1 tablespoon oyster sauce</item>
+        <item>1 tablespoon hoisin sauce</item>
+        <item>1 tablespoon rice vinegar</item>
+        <item>1 teaspoon sesame oi</item>
+        <item>2 tablespoons vegetable oil (for stir-frying)</item>
+        <item>Salt and black pepper, to taste</item>
+        <item>Cooked rice or noodles, for serving</item>
+        <item>Optional garnishes: sliced green onions, sesame seeds, chopped cilantro</item>
     </string-array>
 
 </resources>
