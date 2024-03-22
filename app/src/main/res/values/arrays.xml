@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <string-array name="pronouns">
+        <item>she/her</item>
+        <item>he/him</item>
+        <item>they/them</item>
+    </string-array>
+
     <string-array name="recipe1">
         <item>1 pound (about 450g) boneless, skinless chicken thighs or breasts, cut into bite-sized pieces</item>
         <item>1/2 cup plain yogurt</item>

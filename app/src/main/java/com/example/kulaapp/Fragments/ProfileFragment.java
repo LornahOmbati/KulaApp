@@ -1,17 +1,24 @@
 package com.example.kulaapp.Fragments;
 
+import android.app.Activity;
+import android.app.ProgressDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
 import com.example.kulaapp.Activities.EditProfileActivity;
 import com.example.kulaapp.Activities.InboxActivity;
 import com.example.kulaapp.R;
+import com.example.kulaapp.Utils.AESHelper;
+import com.example.kulaapp.Utils.DbHelper;
+import com.example.kulaapp.Utils.GlobalVariables;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -26,6 +33,15 @@ public class ProfileFragment extends Fragment {
     private static final String ARG_PARAM2 = "param2";
 
     LinearLayout edit_profile_layout, inbox_layout;
+
+    public static Activity act;
+    Context ctx;
+
+    DbHelper doa;
+
+    static AESHelper aesHelper;
+
+    static ProgressDialog pd2;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -51,6 +67,20 @@ public class ProfileFragment extends Fragment {
         args.putString(ARG_PARAM2, param2);
         fragment.setArguments(args);
         return fragment;
+    }
+
+    public static void stopPD2(String message) {
+
+        if(!message.equalsIgnoreCase("unauthorized"))
+        {
+            Toast.makeText(act, message, Toast.LENGTH_LONG).show();
+        }
+
+        GlobalVariables.the_service_start = "stop";
+
+        if(pd2.isShowing()) {
+            pd2.dismiss();
+        }
     }
 
     @Override

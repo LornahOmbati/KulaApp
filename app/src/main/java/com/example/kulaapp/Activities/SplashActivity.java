@@ -10,6 +10,7 @@ import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kulaapp.R;
+import net.sqlcipher.database.SQLiteDatabase;
 
 @SuppressLint("CustomSplashScreen")
 public class SplashActivity extends AppCompatActivity {
@@ -27,10 +28,12 @@ public class SplashActivity extends AppCompatActivity {
         act = this;
         ctx = this;
 
+        SQLiteDatabase.loadLibs(this);
+
 
         // splash screen code to navigate automatically to main activity after a delay/timeout of 3seconds
         new Handler().postDelayed(() -> {
-            Intent mainIntent = new Intent(SplashActivity.this, MainActivity
+            Intent mainIntent = new Intent(SplashActivity.this, LoginActivity
                     .class);
             startActivity(mainIntent);
 

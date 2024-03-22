@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activities.EditProfileActivity"
-    android:background="@color/white">
+    android:background="@color/gray">
 
 
     <TextView
@@ -24,21 +24,178 @@
         android:minHeight="48dp"
         tools:ignore="TextContrastCheck" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/avatar_layout"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/gray"
+        android:layout_below="@+id/title_txt">
+
+        <ImageView
+            android:id="@+id/pfp_img"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/pfp_icon"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/profile_pic_bg"
+            android:padding="10dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/settings_layout"
+        android:layout_below="@+id/avatar_layout"
+        android:orientation="vertical"
+        android:layout_marginStart="15dp"
+        android:background="@color/gray"
+        android:paddingStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        >
+
+        <!-- Settings Title -->
+        <TextView
+            android:id="@+id/edit_profile_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/bubblegum_sans"
+            android:gravity="center"
+            android:text="User details"
+            android:textSize="25sp"
+            android:textColor="@color/black"/>
+
+        <!-- Settings Options -->
+        <EditText
+            android:id="@+id/display_name_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_below = "@+id/edit_profile_txt"
+            tools:ignore="ObsoleteLayoutParam"
+            android:textColor="@color/black"
+            android:hint="Display name"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/edit_txt_bg"
+            android:minHeight="48dp"
+            android:inputType="text"
+            android:textColorHint="#454545"
+            android:fontFamily="@font/capriola"/>
+
+        <EditText
+            android:id="@+id/password_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginTop="9dp"
+            android:hint="Password"
+            android:background="@drawable/edit_txt_bg"
+            android:layout_below = "@+id/display_name_edt"
+            tools:ignore="ObsoleteLayoutParam,UseSwitchCompatOrMaterialXml"
+            android:textColor="@color/black"
+            android:minHeight="48dp"
+            android:inputType="textMultiLine"
+            android:textColorHint="#454545"
+            android:fontFamily="@font/capriola"/>
+
+        <EditText
+            android:id="@+id/about_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_below = "@+id/password_edt"
+            tools:ignore="ObsoleteLayoutParam"
+            android:textColor="@color/black"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/edit_txt_bg"
+            android:hint="About me"
+            android:minHeight="48dp"
+            android:inputType="textMultiLine"
+            android:textColorHint="#454545"
+            android:fontFamily="@font/capriola"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/layoutSpinner"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:layout_marginTop="9dp"
+            android:layout_below="@id/about_edt"
+            android:background="@drawable/edit_txt_bg"
+            android:minHeight="48sp">
+
+            <TextView
+                android:id="@+id/pronouns_edt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Pronouns"
+                android:background="@color/transparent"
+                tools:ignore="ObsoleteLayoutParam,UseSwitchCompatOrMaterialXml"
+                android:textColor="@color/black"
+                android:minHeight="48dp"
+                android:textSize="18sp"
+                android:layout_marginEnd="80dp"
+                android:paddingStart="16dp"
+                android:inputType="text"
+                android:textColorHint="#454545"
+                android:fontFamily="@font/capriola"
+                />
+
+            <Spinner
+                android:id="@+id/pronounsSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="30dp"
+                android:background="@color/transparent"
+                android:entries="@array/pronouns"
+                android:minHeight="44dp"
+                android:paddingStart="16dp"
+                tools:ignore="RtlSymmetry,TouchTargetSizeCheck" />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/email_edt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_marginTop="9dp"
+            android:hint="Email"
+            android:background="@drawable/edit_txt_bg"
+            android:layout_below = "@+id/layoutSpinner"
+            tools:ignore="ObsoleteLayoutParam,UseSwitchCompatOrMaterialXml"
+            android:textColor="@color/black"
+            android:minHeight="48dp"
+            android:inputType="text"
+            android:textColorHint="#454545"
+            android:fontFamily="@font/capriola"/>
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/save_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Save"
-        android:layout_below="@id/title_txt"
         android:textSize="30sp"
         android:layout_gravity="center"
-        android:layout_marginTop="500dp"
+        android:layout_marginTop="9dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="70dp"
         android:textColor="@color/black"
         android:minHeight="48dp"
+        android:layout_below="@id/settings_layout"
         android:fontFamily="@font/bubblegum_sans"
         android:foregroundGravity="bottom"/>
 

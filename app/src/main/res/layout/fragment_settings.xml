@@ -47,35 +47,46 @@
             android:textColor="@color/black"/>
 
         <!-- Settings Options -->
-        <CheckBox
-            android:id="@+id/option_one_checkbox"
+        <TextView
+            android:id="@+id/lang_txt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Option One"
+            android:text="Language"
             android:padding="16dp"
             android:layout_below = "@+id/gen_txt"
             tools:ignore="ObsoleteLayoutParam"
             android:textColor="@color/black"/>
 
-        <CheckBox
-            android:id="@+id/option_two_checkbox"
+        <TextView
+            android:id="@+id/diet_txt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Option Two"
+            android:text="Dietary restrictions"
             android:padding="16dp"
-            android:layout_below = "@+id/option_one_checkbox"
+            android:layout_below = "@+id/lang_txt"
             tools:ignore="ObsoleteLayoutParam"
             android:textColor="@color/black"/>
 
         <Switch
-            android:id="@+id/switch_option"
+            android:id="@+id/notify_option"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/switch_option"
+            android:text="Notifications"
             android:padding="16dp"
-            android:layout_below = "@+id/option_two_checkbox"
+            android:layout_below = "@+id/diet_txt"
             tools:ignore="ObsoleteLayoutParam,UseSwitchCompatOrMaterialXml"
             android:textColor="@color/black" />
+
+        <Switch
+            android:id="@+id/dark_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/notify_option"
+            android:minHeight="48dp"
+            android:padding="16dp"
+            android:text="Dark mode"
+            android:textColor="@color/black"
+            tools:ignore="ObsoleteLayoutParam,UseSwitchCompatOrMaterialXml" />
 
 
     </LinearLayout>
@@ -106,38 +117,37 @@
             android:textColor="@color/black"
             />
 
-        <CheckBox
-            android:id="@+id/option_one_checkbox1"
+        <TextView
+            android:id="@+id/privacy_txt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Option One"
+            android:text="Privacy policy"
             android:padding="16dp"
             android:layout_below = "@+id/legal_txt"
             tools:ignore="ObsoleteLayoutParam"
             android:textColor="@color/black"/>
 
-        <CheckBox
-            android:id="@+id/option_two_checkbox2"
+        <TextView
+            android:id="@+id/agreement_txt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Option Two"
+            android:text="User agreement"
             android:padding="16dp"
-            android:layout_below = "@+id/option_one_checkbox1"
+            android:layout_below = "@+id/privacy_txt"
             tools:ignore="ObsoleteLayoutParam"
             android:textColor="@color/black"/>
 
         <Switch
-            android:id="@+id/switch_option1"
+            android:id="@+id/ads_option"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/switch_option"
+            android:text="Tracking and Ads"
             android:padding="16dp"
-            android:layout_below = "@+id/option_two_checkbox2"
+            android:layout_below = "@+id/agreement_txt"
             tools:ignore="ObsoleteLayoutParam,UseSwitchCompatOrMaterialXml"
             android:textColor="@color/black" />
 
     </LinearLayout>
-
 
     <LinearLayout
         android:id="@+id/Account_layout"
@@ -151,8 +161,7 @@
         android:layout_marginEnd="15dp"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="20dp"
-        android:paddingBottom="9dp"
-        >
+        android:paddingBottom="9dp">
 
         <TextView
             android:id="@+id/account_txt"
@@ -163,7 +172,7 @@
             android:gravity="center"
             android:text="Account"
             android:textSize="25sp"
-            android:layout_below = "@+id/switch_option"
+            android:paddingStart="14dp"
             android:textColor="@color/black"
             />
 
@@ -172,24 +181,26 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/account_txt"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="5dp"
             android:fontFamily="@font/almendra"
             android:gravity="center"
             android:text="Sign Out"
             android:textSize="17sp"
+            android:paddingStart="14dp"
             android:textColor="@color/blue"/>
 
         <TextView
-            android:id="@+id/Delete_txt"
+            android:id="@+id/delete_txt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/account_txt"
-            android:layout_marginTop="16dp"
+            android:layout_below="@+id/sign_out"
+            android:layout_marginTop="5dp"
             android:fontFamily="@font/bubblegum_sans"
             android:gravity="center"
             android:text="Delete Account"
             android:textColor="@color/red"
-            android:textSize="17sp" />
+            android:textSize="17sp"
+            android:paddingStart="14dp"/>
 
     </LinearLayout>
 

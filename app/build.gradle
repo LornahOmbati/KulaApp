@@ -8,8 +8,8 @@ android {
 
     defaultConfig {
         applicationId "com.example.kulaapp"
-        minSdk 19
-        targetSdk 33
+        minSdk 21
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
@@ -38,5 +38,25 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
     implementation 'com.google.android.material:material:1.11.0-alpha01'
+
+    //sqlite imports
+    implementation 'net.zetetic:android-database-sqlcipher:4.5.4'
+    implementation "androidx.sqlite:sqlite:2.4.0"
+
+    //youtube player
+    //implementation files('libs/YouTubeAndroidPlayerApi.jar')
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:12.1.0'
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:chromecast-sender:0.28'
+    //youtube player
+
+    //youtube api
+//    implementation fileTree(dir: 'libs', include: ['*.jar'])
+//    implementation 'com.google.android.youtube:player-api:1.2.2'
+//    implementation 'com.android.support:appcompat-v7:33.0.0'
+    //youtube api
+
+    //implementation files('libs/commons-net-3.3.jar')
+    implementation 'com.squareup.okhttp3:okhttp:4.3.1'
+    implementation 'org.ow2.util.base64:base64:2.0.0'
 
 }

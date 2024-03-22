@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:layout_marginTop="10dp">
+
+
+    <ImageView
+        android:id="@+id/pfp_img"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/pfp_icon"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/profile_pic_bg"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/text_message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="30sp"
+        android:hint="Sender name"
+        android:layout_marginStart="15dp"
+        android:padding="10dp"
+        android:fontFamily="@font/bubblegum_sans"
+        android:textColor="@color/black"
+        android:textColorHint="#454545"/>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dietary_restrictions_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dietary Restrictions"
+        android:textStyle="bold"
+        android:textSize="34sp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:minHeight="48dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/bubblegum_sans"
+        android:textColor="@color/white"
+        />
+
+    <CheckBox
+        android:id="@+id/none_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dietary_restrictions_txt"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="9dp"
+        android:fontFamily="@font/capriola"
+        android:padding="16dp"
+        android:text="None"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:checked="true"/>
+
+    <CheckBox
+        android:id="@+id/veg_checkbox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/none_checkbox"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="9dp"
+        android:checked="false"
+        android:fontFamily="@font/capriola"
+        android:padding="16dp"
+        android:text="Vegeterian"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/done_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/veg_checkbox"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/capriola"
+        android:gravity="right"
+        android:text="Done"
+        android:textColor="@color/red"
+        android:textSize="30sp" />
+
+</RelativeLayout>

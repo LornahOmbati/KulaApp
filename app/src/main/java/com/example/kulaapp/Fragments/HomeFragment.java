@@ -1,16 +1,19 @@
 package com.example.kulaapp.Fragments;
 
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
 
 import com.example.kulaapp.R;
+import com.example.kulaapp.Utils.DbHelper;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class HomeFragment extends Fragment {
@@ -23,6 +26,10 @@ public class HomeFragment extends Fragment {
 
     CardView card_recipe1,card_recipe2,card_recipe3,card_recipe4,card_recipe5, card_recipe6,card_recipe7,card_recipe8;
     BottomNavigationView navigationView;
+
+    TextView save_recipe;
+
+    private DbHelper dao;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -120,6 +127,7 @@ public class HomeFragment extends Fragment {
     }
 
     // Method to show dialogs
+    @SuppressLint("MissingInflatedId")
     private void _dialogAddParent1() {
         AlertDialog.Builder builder = new AlertDialog.Builder(requireContext());
         LayoutInflater inflater = requireActivity().getLayoutInflater();
@@ -127,8 +135,20 @@ public class HomeFragment extends Fragment {
         builder.setView(dialogView);
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
+
+        save_recipe = dialogView.findViewById(R.id.save_recipe);
+        dao = new DbHelper(getActivity());
+
+        save_recipe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+            }
+        });
     }
 
+    @SuppressLint("MissingInflatedId")
     private void _dialogAddParent2() {
         AlertDialog.Builder builder = new AlertDialog.Builder(requireContext());
         LayoutInflater inflater = requireActivity().getLayoutInflater();
@@ -136,9 +156,21 @@ public class HomeFragment extends Fragment {
         builder.setView(dialogView);
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
+
+        save_recipe = dialogView.findViewById(R.id.save_recipe);
+        dao = new DbHelper(getActivity());
+
+        save_recipe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
     }
 
 
+    @SuppressLint("MissingInflatedId")
     private void _dialogAddParent3() {
         AlertDialog.Builder builder = new AlertDialog.Builder(requireContext());
         LayoutInflater inflater = requireActivity().getLayoutInflater();
@@ -146,8 +178,20 @@ public class HomeFragment extends Fragment {
         builder.setView(dialogView);
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
+
+        save_recipe = dialogView.findViewById(R.id.save_recipe);
+        dao = new DbHelper(getActivity());
+
+        save_recipe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
     }
 
+    @SuppressLint("MissingInflatedId")
     private void _dialogAddParent4() {
         AlertDialog.Builder builder = new AlertDialog.Builder(requireContext());
         LayoutInflater inflater = requireActivity().getLayoutInflater();
@@ -155,8 +199,20 @@ public class HomeFragment extends Fragment {
         builder.setView(dialogView);
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
+
+        save_recipe = dialogView.findViewById(R.id.save_recipe);
+        dao = new DbHelper(getActivity());
+
+        save_recipe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
     }
 
+    @SuppressLint("MissingInflatedId")
     private void _dialogAddParent5() {
         AlertDialog.Builder builder = new AlertDialog.Builder(requireContext());
         LayoutInflater inflater = requireActivity().getLayoutInflater();
@@ -164,8 +220,20 @@ public class HomeFragment extends Fragment {
         builder.setView(dialogView);
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
+
+        save_recipe = dialogView.findViewById(R.id.save_recipe);
+        dao = new DbHelper(getActivity());
+
+        save_recipe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
     }
 
+    @SuppressLint("MissingInflatedId")
     private void _dialogAddParent6() {
         AlertDialog.Builder builder = new AlertDialog.Builder(requireContext());
         LayoutInflater inflater = requireActivity().getLayoutInflater();
@@ -173,8 +241,20 @@ public class HomeFragment extends Fragment {
         builder.setView(dialogView);
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
+
+        save_recipe = dialogView.findViewById(R.id.save_recipe);
+        dao = new DbHelper(getActivity());
+
+        save_recipe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
     }
 
+    @SuppressLint("MissingInflatedId")
     private void _dialogAddParent7() {
         AlertDialog.Builder builder = new AlertDialog.Builder(requireContext());
         LayoutInflater inflater = requireActivity().getLayoutInflater();
@@ -182,8 +262,20 @@ public class HomeFragment extends Fragment {
         builder.setView(dialogView);
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
+
+        save_recipe = dialogView.findViewById(R.id.save_recipe);
+        dao = new DbHelper(getActivity());
+
+        save_recipe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
     }
 
+    @SuppressLint("MissingInflatedId")
     private void _dialogAddParent8() {
         AlertDialog.Builder builder = new AlertDialog.Builder(requireContext());
         LayoutInflater inflater = requireActivity().getLayoutInflater();
@@ -191,6 +283,17 @@ public class HomeFragment extends Fragment {
         builder.setView(dialogView);
         AlertDialog alertDialog = builder.create();
         alertDialog.show();
+
+        save_recipe = dialogView.findViewById(R.id.save_recipe);
+        dao = new DbHelper(getActivity());
+
+        save_recipe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
+
     }
 
     // Method to show toast

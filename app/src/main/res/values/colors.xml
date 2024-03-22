@@ -23,4 +23,5 @@
     <color name="lawn_green">#7CFC00</color>
     <color name="brownish">#A1887F</color>
     <color name="red">#FF0000</color>
+    <color name="checkbox_border_color">#050505</color>
 </resources>

@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/yellow"
+    android:background="@color/gray"
     android:orientation="vertical">
 
     <TextView
@@ -78,6 +78,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/steps_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/Ing_linear"
@@ -106,6 +107,47 @@
             android:layout_marginBottom="5dp"
             android:gravity="right"
             android:minHeight="48dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/steps_layout"
+        android:minHeight="48dp"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/save_bg"
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
+
+            <TextView
+                android:id="@+id/save_recipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:textSize="18sp"
+                android:layout_marginTop="19dp"
+                android:text="Save Recipe"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/capriola"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:minHeight="48dp"
+                android:padding="3dp"
+                android:src="@drawable/save_icon" />
+
+        </LinearLayout>
 
     </LinearLayout>
 

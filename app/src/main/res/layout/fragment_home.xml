@@ -32,13 +32,15 @@ android:layout_marginBottom="25dp">
     android:scrollbars="none"
     android:layout_below="@+id/title_txt"
     android:layout_marginBottom="20dp"
-    tools:ignore="UselessParent">
+    tools:ignore="UselessParent"
+    android:background="@color/gray">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center"
+        android:background="@color/gray"
         android:foregroundGravity="center"
         android:layout_marginLeft="13dp"
         android:layout_marginTop="20dp"
@@ -53,7 +55,8 @@ android:layout_marginBottom="25dp">
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             app:cardCornerRadius="10dp"
-            app:cardElevation="10dp">
+            app:cardElevation="10dp"
+            android:background="@color/gray">
 
             <SearchView
                 android:id="@+id/search_view"
